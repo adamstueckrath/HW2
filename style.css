@@ -1,23 +1,65 @@
+body { 
+	Color: Black;
+	font-family: sans-serif;
+	font-size: 10pt;
+	margin: 0 auto;
+	}
+
+h1 {
+	text-align:center; 
+	color: #503742;
+	font-family: Times New Roman;
+	font-size: 40pt; 
+	font-weight:bold; 
+	font-variant:small-caps; 
+	height:60px; 
+	margin-bottom: 0px;
+	padding-left:10px; 
+	padding-top:15px;
+	}
 	
-	
-	
-	.menubar { background-color: #98bf21; height:10px;}	
-	
-	.content {background-color:#BDBDBD; margin:0 auto; width:75%; text-align:left; border: 2px solid black; }
-	
-	h1 {text-align:center; color:#036; font-size: 24pt; font-weight:bold; font-variant:small-caps; height:60px; margin-bottom: 0px; padding-left:10px; padding-top:15px;}
-	
-	h2 {text-align:left; color:#036; font-size: 18pt; font-weight:bold; font-variant:small-caps; height:20px; margin-bottom: 0px; padding-left:10px; padding-top:0px;}
+h2 { 
+	text-align:left; 
+	color:#503742;
+	font-family: Times New Roman;
+	font-size: 18pt;
+	font-weight:bold; 
+	font-variant:small-caps;
+	height:20px; 
+	margin-bottom: 0px; 
+	padding-left:10px; 
+	padding-top:0px;
+	text-decoration:underline;
+	}
 		
-	#custom {text-align:left; color:#036; font-size: 18pt; font-weight:bold; font-variant:small-caps; height:20px; margin-bottom: 0px; padding-left:10px; padding-top:40px;}
+#wrap {
+	width:1240px; 
+	margin:0 auto; 
+	border-left: solid 2px black; 
+	border-right: solid 2px black;  
+	border-bottom: solid 2px black;
+	}
+
+#nav { 
+	background:#92A087; 
+	padding:5px 10px; 
+	text-align:center; 
+	}
+
+#nav li { 
+	display: inline; 
+	list-style-type: none;
+	padding-right: 20px; 
+	font-size: 14pt;
+	font-weight:normal; 
+	font-variant:small-caps;
+	}
+
+#header {
+	background:#92A087;
+	font-family: Times New Roman;
+	font-size:40pt;
+	padding:5px 10px;
+	}
+
 	
-	/* Formatting for top navigation buttons on the web site */
-		ul #navlist{list-style-type:none; margin: 0px; padding-left: 0px;}
-		#navlist li{ display:block; float:left; font-weight:bold; text-align:center; font-variant:small-caps; }
-		#navlist a { padding: 10px 25px; }
-		#navlist a:link, #navlist a:visited { color: #fff; background-color: #036; text-decoration: none; }
-		#navlist a:hover { color: #fff; background-color: #98bf21; text-decoration: none; }
-		
-		/* Formatting to highlight the navigation button corresponding to the page you are on... breadcrumb. */
-		body#home  a#homenav, body#Resume a#resumenav, body#LinkedIn a#linkedInnav, body#Email a#emailnav 
-			{ color: #fff; background-color: #98bf21; text-decoration: none; }
