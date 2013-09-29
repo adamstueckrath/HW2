@@ -38,21 +38,10 @@ h2 {
 	border-left: solid 2px black; 
 	border-right: solid 2px black;  
 	border-bottom: solid 2px black;
-	}
-
-#nav { 
-	background:#92A087; 
-	padding:5px 10px; 
-	text-align:center; 
-	}
-
-#nav li { 
-	display: inline; 
-	list-style-type: none;
-	padding-right: 20px; 
-	font-size: 14pt;
-	font-weight:normal; 
-	font-variant:small-caps;
+	padding-top:0px; 
+	padding-left:10px; 
+	padding-right:10px; 
+	padding-bottom:10px; 
 	}
 
 #header {
@@ -61,5 +50,117 @@ h2 {
 	font-size:40pt;
 	padding:5px 10px;
 	}
-
+#footer{
+	background:#92A087;
+	clear:both;
+	padding: 5px 10px;	
+	color:#503742;
+	}
 	
+#footer p{
+	margin: 0;
+	text-align: center;
+	}
+	
+.printonly { display:none; }
+.pagebreak { display:none; }
+#printheader { display:none; }
+	
+#navcontainer{
+	background: #f0e7d7;
+	margin: 0 auto;
+	padding: 1em 0 0 0;
+	font-family: georgia, serif;
+	text-transform: lowercase;
+	text-align:center
+	}
+
+/* to stretch the container div to contain floated list */
+#navcontainer:after{
+	content: ".";
+	display: block;
+	line-height: 1px;
+	font-size: 1px;
+	clear: both;
+	}
+
+ul#navlist{
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 0.8em;
+	}
+
+ul#navlist li{
+	display: inline;
+	float: left;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	}
+
+ul#navlist li a{
+	display: block;
+	width: 100%;
+	padding: 0.5em;
+	border-width: 1px;
+	border-color: #ffe #aaab9c #ccc #fff;
+	border-style: solid;
+	color: #503742;
+	text-decoration: none;
+	background: #f7f2ea;
+	}
+
+#navcontainer>ul#navlist li a { width: auto; }
+
+ul#navlist li#active a{
+	background: #f0e7d7;
+	color: #800000;
+	}
+
+ul#navlist li a:hover, ul#navlist li#active a:hover{
+	color: #800000;
+	background: transparent;
+	border-color: #aaab9c #fff #fff #ccc;
+	}
+
+.polaroid_right {
+	float:right;
+	position: relative;
+	background: #fff;
+	width: 250px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 175px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid 1px black; 
+	text-align: center;
+	-moz-box-shadow: 1px 1px 3px #222;
+	-moz-transform: rotate(+5deg);
+	-webkit-box-shadow: 1px 1px 3px #222;
+	-webkit-transform: rotate(+5deg);
+	box-shadow: 1px 1px 3px #222;
+	-o-transform: rotate(+5deg);
+	}
+.polaroid_righttwo {
+	float:right;
+	position: relative;
+	background: #fff;
+	width: 250px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid 1px black; 
+	text-align: center;
+	-moz-box-shadow: 1px 1px 3px #222;
+	-moz-transform: rotate(+5deg);
+	-webkit-box-shadow: 1px 1px 3px #222;
+	-webkit-transform: rotate(+5deg);
+	box-shadow: 1px 1px 3px #222;
+	-o-transform: rotate(+5deg);
+	transform: rotate(+5deg);
+	}

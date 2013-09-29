@@ -5,26 +5,32 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 	<title> Resume </title> 
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="printstyle.css" />
+
 </head>
 
 <div id="wrap">
 
-<div id="header">
-<h1>Hello my name is Adam.</h1>
-</div>
+	<div id="header">
+		<h1>Hello my name is Adam.</h1>
+	</div>
+	<div id="printheader"> 
+		<h1> Adam Stueckrath </h1> 	
+	</div>
 
-<div id="nav">
-<ul>
-<li><a href="index.html"> Home </a/li>
-<li><a href="Resume.html"> Resume </a></li>
+
+<div id="navcontainer">
+<ul id="navlist">
+<li><a href="./index.html"> Home </a/li>
+<li id="active"><a href="./Resume.html"id="current"> Resume </a></li>
 <li><a href="http://www.linkedin.com/pub/adam-stueckrath/54/110/121"> LinkedIn </a></li>
 <li><a href="mailto:adam-stueckrath@uiowa.edu"> Email</a></li>
 </ul>
 </div>
 
 
-<div>
+<div id="resume">
 <p>
 <b>Adam Stueckrath</b>
 <br />509 E. Davenport St., Iowa City, Iowa, 52245 :: (515) 418-0987 :: adam-stueckrath@uiowa
@@ -43,8 +49,14 @@
 
 <p>
 <b>COURSE HIGHLIGHTS</b>
-<br /> Software Design & Development Computer Science I Business Process Analysis
-<br /> Database Management Visual Basic Programming Data Communications
+<ul>
+<li>Software Design & Development </li>
+<li>Computer Science I </li>
+<li>Business Process Analysis</li>
+<li>Database Management </li>
+<li>Visual Basic Programming </li>
+<li>Data Communications</li>
+</ul>
 </p>
 
 <p>
@@ -57,18 +69,16 @@
 <li>Developed a Mobile Application within 3-days for the United Way Campaign using Android Development Kit in Eclipse</li>
 <li>Created data models using data definition language with Erwin Data Modeler to support various business units</li>
 </ul>
-</p>
 
-<p>
+<br />
 <b>COMPUTER SKILLS</b>
 <ul>
 <li>Languages: JavaScript, Python, Visual Basic, SQL, HTML, XML,CSS</li>
 <li>Operating Systems: Mac OS X, Windows XP, 7 OS, Vista</li>
 <li>Software: ASP.NET, Oracle, Microsoft Office, Expression Web, Visio, Application Life Cycle</li>
 </ul>
-</p>
 
-<p>
+<br />
 <b>WORK EXPERIENCE</b>
 <br /><b><i>Chef Assistant</i></b> January 2012 - Present
 <br />Alpha Delta Pi, Iowa City, Iowa
@@ -85,10 +95,8 @@
 <li>Maintained, repaired, and overhauled farm machinery and vehicles, such as tractors, harvesters, and irrigation systems</li>	
 <li>Performed a wide array of duties for the general infrastructure of Living History Farms to maintain health standards and to increase the accessibility, safety, and attractiveness of the Farms</li>
 </ul>
-</p>
 
-<p>
-<b>LEADERSHIP EXPERIENCE</b>
+<br /><b>LEADERSHIP EXPERIENCE</b>
 <br /><b><i>Historian & Member</i></b> August 2011 - Present
 <br />Alpha Kappa Psi Professional Business Fraternity, The University of Iowa
 <ul>
@@ -97,10 +105,8 @@
 <li>Strengthened communication, networking, and interviewing abilities</li>
 <li>Planned and conducted a service project at the American Cancer Society Hope Lodge</li>
 </ul>
-</p>
 
-<p>
-<b>VOLUNTEER EXPERIENCE</b>
+<br /><b>VOLUNTEER EXPERIENCE</b>
 <ul>
 <li>United Action for Youth South East Jr. High after School Program January 2012 - May 2012</li>
 <li>United Action for Youth Receptionist August 2011 - January 2012</li>
@@ -108,7 +114,6 @@
 <li>Best Buddies International September 2009 - May 2010</li>
 <li>People to People International September 2009 - May 2010</li>
 </ul>
-</p>
 
 <br /><b>ACTIVITIES</b>
 <ul>
@@ -116,8 +121,9 @@
 <li>Ethics Society - Member August 2012 - Present</li>
 <li>Chicago Marathon October 2013</li>
 </ul>
-
-
+</p>
+<div id="footer">
+<p>All contents &copy; Adam Stueckrath</p>
 </div>
 
 </body>

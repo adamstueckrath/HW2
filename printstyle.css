@@ -1,0 +1,52 @@
+body { 
+	background: white; 
+	font-size: 10pt; 
+	font-family:Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif; 
+	}
+
+img { 
+	display: none; 
+	}
+
+ul { 
+	margin:0px; 
+	padding:0;	
+	}
+li { 
+	margin-left:20px; 
+	margin-bottom:5px; 
+	padding:0;  
+	}
+	
+#header, #navcontainer, #sidebar, #footer, #navlist { 
+	display: none; 
+	}
+
+#wrap {
+	width: auto; 
+	margin: 0; 
+	border:0; 
+	}
+
+#printheader { 
+	display:block; 
+	text-align:center; 
+	float:none !important; 
+	padding-top:10px; 
+	padding-bottom:0;
+	}
+
+.printonly {
+	display:block;
+	}
+
+#resume {
+   width: auto;
+   margin: 0;
+   padding-left: 5pt;
+   padding-right: 5pt;
+   border: 0; 
+   float: none !important;
+   color: black;
+   background: transparent none;
+   }
